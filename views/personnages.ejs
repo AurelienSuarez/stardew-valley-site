@@ -1,0 +1,84 @@
+<%- include('./partials/header') %>
+
+<main class="container">
+  <section class="page-header">
+    <h1><%= pageTitle %></h1>
+    <p>D?couvrez tous les habitants qui vivent ? Pelican Town et comment devenir leur ami.</p>
+  </section>
+
+  <section class="villagers">
+    <h2>Personnages ?pousables</h2>
+    <div class="villagers-grid">
+      <!-- Abigail -->
+      <div class="villager-card">
+        <img src="/images/characters/abigail.png" alt="Abigail" class="villager-img">
+        <div class="villager-info">
+          <h3>Abigail</h3>
+          <p><strong>Anniversaire:</strong> Automne 13</p>
+          <p><strong>Adresse:</strong> Magasin de Pierre</p>
+          <p>Abigail est aventureuse et aime explorer les mines. Elle joue de la fl?te et aime les jeux vid?o.</p>
+          <p><strong>Cadeaux pr?f?r?s:</strong> Am?thyste, Citrouille, Quartz fum?, Chocolat</p>
+        </div>
+      </div>
+      
+      <!-- Alex -->
+      <div class="villager-card">
+        <img src="/images/characters/alex.png" alt="Alex" class="villager-img">
+        <div class="villager-info">
+          <h3>Alex</h3>
+          <p><strong>Anniversaire:</strong> ?t? 13</p>
+          <p><strong>Adresse:</strong> Maison de George et Evelyn</p>
+          <p>Alex est sportif et r?ve de devenir athl?te professionnel. Il vit avec ses grands-parents.</p>
+          <p><strong>Cadeaux pr?f?r?s:</strong> ?uf complet, Croustille d'igname, Caf?</p>
+        </div>
+      </div>
+      
+      <!-- Et plus... -->
+    </div>
+
+    <h2>Villageois</h2>
+    <div class="villagers-grid">
+      <!-- Caroline -->
+      <div class="villager-card">
+        <img src="/images/characters/caroline.png" alt="Caroline" class="villager-img">
+        <div class="villager-info">
+          <h3>Caroline</h3>
+          <p><strong>Anniversaire:</strong> Hiver 7</p>
+          <p><strong>Adresse:</strong> Magasin de Pierre</p>
+          <p>Caroline est la m?re d'Abigail et la femme de Pierre. Elle aime le jardinage et le th?.</p>
+          <p><strong>Cadeaux pr?f?r?s:</strong> Th? vert, Th? de magnolia</p>
+        </div>
+      </div>
+      
+      <!-- Clint -->
+      <div class="villager-card">
+        <img src="/images/characters/clint.png" alt="Clint" class="villager-img">
+        <div class="villager-info">
+          <h3>Clint</h3>
+          <p><strong>Anniversaire:</strong> Hiver 26</p>
+          <p><strong>Adresse:</strong> Forge</p>
+          <p>Clint est le forgeron local. Il est plut?t timide et a un faible pour Emily.</p>
+          <p><strong>Cadeaux pr?f?r?s:</strong> Barres d'or, ?meraude, Jade</p>
+        </div>
+      </div>
+      
+      <!-- Et plus... -->
+    </div>
+  </section>
+
+  <section class="gift-guide">
+    <h2>Guide des cadeaux</h2>
+    <p>Le moyen le plus rapide de se lier d'amiti? avec les habitants est de leur offrir des cadeaux qu'ils aiment.</p>
+    <p>Points d'amiti? gagn?s par type de cadeau :</p>
+    <ul>
+      <li><strong>Cadeau ador?:</strong> +80 points</li>
+      <li><strong>Cadeau aim?:</strong> +45 points</li>
+      <li><strong>Cadeau neutre:</strong> +20 points</li>
+      <li><strong>Cadeau d?test?:</strong> -20 points</li>
+      <li><strong>Cadeau ha?:</strong> -40 points</li>
+    </ul>
+    <p>N'oubliez pas que le jour de l'anniversaire d'un villageois, les points d'amiti? sont multipli?s par 8 !</p>
+  </section>
+</main>
+
+<%- include('./partials/footer') %>
