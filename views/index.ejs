@@ -1,0 +1,55 @@
+<%- include('./partials/header') %>
+
+<main class="container">
+  <section class="hero">
+    <h1><%= pageTitle %></h1>
+    <p>D?couvrez tout ce que vous devez savoir sur l'univers de Stardew Valley !</p>
+    <img src="/images/stardew-valley-banner.jpg" alt="Banni?re Stardew Valley" class="hero-img">
+  </section>
+
+  <section class="intro">
+    <h2>? propos du jeu</h2>
+    <p>Stardew Valley est un jeu de simulation de ferme cr?? par Eric Barone (ConcernedApe). Vous h?ritez de la vieille ferme de votre grand-p?re ? Stardew Valley et commencez une nouvelle vie loin de l'agitation de la ville.</p>
+    <p>Dans ce jeu, vous pouvez :</p>
+    <ul>
+      <li>Cultiver des fruits et l?gumes</li>
+      <li>?lever des animaux</li>
+      <li>P?cher dans les divers plans d'eau</li>
+      <li>Explorer les mines et affronter des monstres</li>
+      <li>Cr?er des amiti?s et m?me vous marier avec les habitants</li>
+      <li>Participer aux ?v?nements saisonniers</li>
+    </ul>
+  </section>
+
+  <section class="features">
+    <h2>Explorez notre site</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <img src="/images/villagers.jpg" alt="Villageois" class="feature-img">
+        <h3>Personnages</h3>
+        <p>D?couvrez tous les personnages qui habitent Stardew Valley et apprenez comment devenir leur ami.</p>
+        <a href="/personnages" class="btn">Voir les personnages</a>
+      </div>
+      <div class="feature-card">
+        <img src="/images/crops.jpg" alt="Cultures" class="feature-img">
+        <h3>Cultures</h3>
+        <p>Apprenez quand et comment planter vos cultures pour maximiser vos profits.</p>
+        <a href="/cultures" class="btn">Guide des cultures</a>
+      </div>
+      <div class="feature-card">
+        <img src="/images/fishing.jpg" alt="P?che" class="feature-img">
+        <h3>P?che</h3>
+        <p>D?couvrez o? et quand p?cher les diff?rents poissons du jeu.</p>
+        <a href="/peche" class="btn">Guide de p?che</a>
+      </div>
+      <div class="feature-card">
+        <img src="/images/mines.jpg" alt="Mines" class="feature-img">
+        <h3>Mines</h3>
+        <p>Explorez les mines ?tage par ?tage et d?couvrez tous les tr?sors cach?s.</p>
+        <a href="/mines" class="btn">Guide des mines</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<%- include('./partials/footer') %>
