@@ -1,0 +1,25 @@
+{
+  "name": "stardew-valley-site",
+  "version": "1.0.0",
+  "description": "Un site web sur Stardew Valley d?velopp? avec Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "stardew",
+    "valley",
+    "node",
+    "express"
+  ],
+  "author": "AurelienSuarez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
